@@ -1,0 +1,64 @@
+body{
+  display: block;
+  margin: 8px;
+}
+.square{
+  position: absolute;
+}
+.square1{
+  background-color: #2C6BE4;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+}
+.square2{
+  background-color: white;
+  top: 45px;
+  left: 40px;
+  bottom: 45px;
+  right: 40px;
+  border-radius: 30px;
+}
+.navbar{
+  background-color: rgb(128, 36, 36);
+  top: 0px;
+  left: 0px;
+  bottom: 470px;
+  right: 0px;
+  border-radius: 30px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.foot {
+  background-color: rgb(128, 36, 36);
+  top: 470px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  border-radius: 30px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+.imgmain {
+  background-color: red;
+  top: 65px;
+  left: 0px;
+  bottom: 65px;
+  right: 640px;
+}
+.cardmain {
+  background-color: rgb(0, 255, 136);
+  top: 65px;
+  left: 640px;
+  bottom: 65px;
+  right: 0px;
+}
+.creditcard {
+  background-color: #2C6BE4;
+  top: 200px;
+  left: 800px;
+  bottom: 150px;
+  right: 158px;
+  border-radius: 30px;
+}

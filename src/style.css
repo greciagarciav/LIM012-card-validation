@@ -32,6 +32,7 @@ input {
   padding: 8px;
   border-radius: 10px;
   text-align: center;
+  position: relative;
 }
 .square{
   position: absolute;
@@ -113,7 +114,6 @@ input {
   bottom: 160px;
   right: 113px;
   border-radius: 20px;
-
 }
 .text-credit-card {
   margin: 0px;
@@ -127,4 +127,48 @@ input {
   padding: 8px 22px;
   font-size: 14px;
   font-weight: 600;
+}
+.card-result-valid {
+  background-color: #38B955;
+  color: white;
+  text-align: center;
+  top: 380px;
+  left: 760px;
+  bottom: 100px;
+  right: 113px;
+  border-radius: 20px;
+}
+.card-result-invalid {
+  background-color: #DD5D5D;
+  color: white;
+  text-align: center;
+  top: 380px;
+  left: 760px;
+  bottom: 100px;
+  right: 113px;
+  border-radius: 20px;
+}
+.tool-tip  {
+  width: 150px;
+  background-color: #ffe521;
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 120%;
+  left: 25%;
+  margin-left: -60px;
+}
+.tool-tip::after{
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #ffe521 transparent;
 }

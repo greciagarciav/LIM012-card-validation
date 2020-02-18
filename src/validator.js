@@ -6,7 +6,6 @@ const validator = {
   
     let result= [];
     for(let i = 0; i < numberReverted.length ; i++){
-        let j = 0;
         if(i % 2 !== 0){
          result.push(numberReverted[i] * 2);
         }
@@ -14,7 +13,6 @@ const validator = {
         result.push(parseInt(numberReverted[i]));
         }   
     } 
-    // console.log(result);
   
     let newArr = [];
     for(let i = 0; i < result.length; i++){
@@ -28,19 +26,16 @@ const validator = {
         newArr.push((result[i]));
       }
     }
-    // console.log(newArr);
   
     let initial = 0;
     let total = newArr.reduce((sum, current) => sum + current, initial);
-  
-    // console.log(total);
-    
+ 
     if(total % 10 == 0){
       return true;
     } else {
       return false;
     }
-  
+
   },
 
 

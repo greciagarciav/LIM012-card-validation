@@ -1,168 +1,186 @@
-body{
-  display: block;
-  margin: 8px;
-}
-h1,
-h2
-{
-  font-family: 'Luckiest Guy', cursive;
-}
-h1 {
-  left: 855px;
-  font-size: 40px;
-  margin-top: 10px;
-  color: #2C6BE4;
-}
-h2{
-  color: white;
-  font-size: 40px;
-  margin: 15px;
-  margin-top: 5px;
-}
-h6{
-  color: #2C6BE4;
-  font-family: 'Roboto', sans-serif;
-  margin: 10px;
-  font-size: 12px;
-}
-p{
-  font-family: 'Roboto', sans-serif;
-}
-input {
-  padding: 8px;
-  border-radius: 10px;
-  text-align: center;
-  position: relative;
-}
-.square{
-  position: absolute;
-}
-.square1{
-  background-color: #2C6BE4;
-  top: 0px;
-  left: 0px;
-  bottom: 0px;
-  right: 0px;
-}
-.square2{
-  background-color: white;
-  top: 45px;
-  left: 40px;
-  bottom: 45px;
-  right: 40px;
-  border-radius: 30px;
-}
-.navbar{
-  top: 0px;
-  left: 0px;
-  bottom: 470px;
-  right: 0px;
-  border-radius: 30px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
-.foot {
-  top: 500px;
-  left: 0px;
-  bottom: 0px;
-  right: 0px;
-  border-radius: 30px;
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
-  text-align: center;
-}
-.imgmain {
-  max-height: 500px;
-  background-image: url(img/verificard.png);
-  background-size: contain;
-  background-position: center;
-  top: 65px;
-  left: 0px;
-  bottom: 35px;
-  right: 640px;
-}
-.imgchip {
-  max-height: 60px;
-  top: 10px;
-  left: 50px;;
-}
-.title-card {
-  left: 240px;
-  top: 10px;
-}
-.cardmain {
-  top: 65px;
-  left: 640px;
-  bottom: 35px;
-  right: 0px;
-  text-align: center;
-}
-.text-cardmain {
-  left: 150px;
-  top: 60px;
-}
-.creditcard {
-  background-color: #2C6BE4;
-  top: 110px;
-  left: 120px;
-  bottom: 120px;
-  right: 120px;
-  border-radius: 20px;
-}
-.text-credit-card {
-  margin: 0px;
-  top: 100px;
-  left: 55px;
-  color: white;
-  font-size: 14px;
-}
-.btn-verify {
-  background-color: #ffe521;
-  border-radius: 10px;
-  padding: 8px 22px;
-  font-size: 14px;
-  font-weight: 600;
-  top: 120px;
-  left: 246px;
-}
-.ipt-card {
-  top: 120px;
-  left: 50px;
-}
-.ctn-result {
-  color: white;
-  text-align: center;
-  border-radius: 20px;
-  top: 320px;
-  left: 120px;
-  bottom: 60px;
-  right: 120px;
-}
-.tool-tip  {
-  width: 150px;
-  background-color: #ffe521;
-  color: black;
-  font-weight: 600;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: 80%;
-  left: 33%;
-  margin-left: -60px;
-}
-.tool-tip::after{
-  content: "";
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: transparent transparent #ffe521 transparent;
-}
+  body{
+    display: block;
+    margin: 8px;
+  }
+  h1,
+  h2
+  {
+    font-family: 'Luckiest Guy', cursive;
+  }
+  h1 {
+    left: 855px;
+    font-size: 40px;
+    margin-top: 10px;
+    color: #2C6BE4;
+  }
+  h2{
+    color: white;
+    font-size: 40px;
+    margin: 15px;
+    margin-top: 5px;
+  }
+  h6{
+    color: #2C6BE4;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+    font-size: 12px;
+  }
+  p{
+    font-family: 'Roboto', sans-serif;
+  }
+  input {
+    padding: 8px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+  }
+  .ctn-guide{
+    position: absolute;
+  }
+  .ctn-blue-bg{
+    background-color: #2C6BE4;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+  }
+  .ctn-wt-bg{
+    background-color: white;
+    top: 45px;
+    left: 40px;
+    bottom: 45px;
+    right: 40px;
+    border-radius: 30px;
+  }
+  .nav-bar{
+    top: 0px;
+    left: 0px;
+    bottom: 470px;
+    right: 0px;
+    border-radius: 30px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .foot {
+    top: 500px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    text-align: center;
+  }
+  .img-main {
+    max-height: 500px;
+    background-image: url(img/verificard.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    top: 65px;
+    left: 0px;
+    bottom: 35px;
+    right: 640px;
+  }
+  .img-chip {
+    max-height: 60px;
+    top: 10px;
+    left: 50px;;
+  }
+  .title-card {
+    left: 240px;
+    top: 10px;
+  }
+  .card-main {
+    top: 65px;
+    left: 640px;
+    bottom: 35px;
+    right: 0px;
+    text-align: center;
+  }
+  .text-card-main {
+    left: 150px;
+    top: 60px;
+  }
+  .creditcard {
+    background-color: #2C6BE4;
+    top: 110px;
+    left: 120px;
+    bottom: 120px;
+    right: 120px;
+    border-radius: 20px;
+  }
+  .text-credit-card {
+    margin: 0px;
+    top: 100px;
+    left: 55px;
+    color: white;
+    font-size: 14px;
+  }
+  .btn-verify {
+    background-color: #ffe521;
+    border-radius: 10px;
+    padding: 8px 22px;
+    font-size: 14px;
+    font-weight: 600;
+    top: 120px;
+    left: 246px;
+  }
+  .ipt-card {
+    top: 120px;
+    left: 50px;
+  }
+  .ctn-result {
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    top: 320px;
+    left: 120px;
+    bottom: 60px;
+    right: 120px;
+  }
+  .tool-tip  {
+    width: 150px;
+    background-color: #ffe521;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 80%;
+    left: 33%;
+    margin-left: -60px;
+  }
+  .tool-tip::after{
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #ffe521 transparent;
+  }
 
-@media screen and (min-width: 480px) and (max-width: 780px){
-  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+  /* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
 }

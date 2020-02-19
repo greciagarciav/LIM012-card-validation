@@ -13,26 +13,26 @@ btnVerifyCardNum.addEventListener('click', () => {
   let validatorNumber = validator.isValid(card);
   let maskifyNumber = validator.maskify(card);
   let showResult = document.getElementById('card-result');
-  let validResult =  `<p>${maskifyNumber}, es válida.</p>`;
-  let invalidResult = `<p> ${maskifyNumber}, no es válida.</p>`;
+  let validResult =  `<p>${maskifyNumber}, es válido.</p>`;
+  let invalidResult = `<p> ${maskifyNumber}, no es válido.</p>`;
 
     if(card == ''){
-      document.getElementById('tip').innerHTML = `Complete este campo`;
-      document.getElementById('tip').classList.add('tool-tip');
+      document.getElementById('tip-msg').innerHTML = `Complete este campo`;
+      document.getElementById('tip-msg').classList.add('tool-tip');
       document.getElementById('card-number').value = '';
     // } else if (card.length !== 16){
-    //   document.getElementById('tip').innerHTML = `Ingrese 16 digitos`;
-    //   document.getElementById('tip').classList.add('tool-tip');
+    //   document.getElementById('tip-msg').innerHTML = `Ingrese 16 digitos`;
+    //   document.getElementById('tip-msg').classList.add('tool-tip');
     //   document.getElementById('card-number').value = '';
     } else if (validatorNumber == true) {
       showResult.innerHTML = validResult;
-      document.getElementById('card-result').classList.add('square');
+      document.getElementById('card-result').classList.add('ctn-guide');
       document.getElementById('card-result').classList.add('ctn-result');
       document.getElementById('card-result').style.backgroundColor = '#38B955';
       document.getElementById('card-number').value = '';
     } else {
       showResult.innerHTML = invalidResult;
-      document.getElementById('card-result').classList.add('square');
+      document.getElementById('card-result').classList.add('ctn-guide');
       document.getElementById('card-result').classList.add('ctn-result');
       document.getElementById('card-result').style.backgroundColor = '#DD5D5D';
       document.getElementById('card-number').value = '';
@@ -41,8 +41,8 @@ btnVerifyCardNum.addEventListener('click', () => {
 
 cleanInputCard.addEventListener('keypress', () => {
   document.getElementById('card-result').innerHTML = ``;
-  document.getElementById('tip').innerHTML = ``;
-  document.getElementById('tip').classList.remove('tool-tip');
-  document.getElementById('card-result').classList.remove('square');
+  document.getElementById('tip-msg').innerHTML = ``;
+  document.getElementById('tip-msg').classList.remove('tool-tip');
+  document.getElementById('card-result').classList.remove('ctn-guide');
   document.getElementById('card-result').classList.remove('ctn-result');
 });

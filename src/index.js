@@ -13,8 +13,8 @@ btnVerifyCardNum.addEventListener('click', () => {
   let validatorNumber = validator.isValid(card);
   let maskifyNumber = validator.maskify(card);
   let showResult = document.getElementById('card-result');
-  let validResult =  `<div class="square card-result-valid"><p>${maskifyNumber}, es válida.</p></div>`;
-  let invalidResult = `<div class="square card-result-invalid"><p> ${maskifyNumber}, no es válida.</p></div>`;
+  let validResult =  `<p>${maskifyNumber}, es válida.</p>`;
+  let invalidResult = `<p> ${maskifyNumber}, no es válida.</p>`;
 
     if(card == ''){
       document.getElementById('tip').innerHTML = `Complete este campo`;
@@ -26,9 +26,15 @@ btnVerifyCardNum.addEventListener('click', () => {
     //   document.getElementById('card-number').value = '';
     } else if (validatorNumber == true) {
       showResult.innerHTML = validResult;
+      document.getElementById('card-result').classList.add('square');
+      document.getElementById('card-result').classList.add('ctn-result');
+      document.getElementById('card-result').style.backgroundColor = '#38B955';
       document.getElementById('card-number').value = '';
     } else {
       showResult.innerHTML = invalidResult;
+      document.getElementById('card-result').classList.add('square');
+      document.getElementById('card-result').classList.add('ctn-result');
+      document.getElementById('card-result').style.backgroundColor = '#DD5D5D';
       document.getElementById('card-number').value = '';
     }
 });
@@ -37,4 +43,6 @@ cleanInputCard.addEventListener('keypress', () => {
   document.getElementById('card-result').innerHTML = ``;
   document.getElementById('tip').innerHTML = ``;
   document.getElementById('tip').classList.remove('tool-tip');
+  document.getElementById('card-result').classList.remove('square');
+  document.getElementById('card-result').classList.remove('ctn-result');
 });

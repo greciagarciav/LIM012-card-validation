@@ -23,7 +23,7 @@ btnVerifyCardNum.addEventListener('click', () => {
     // } else if (card.length !== 16){
     //   document.getElementById('tip-msg').innerHTML = `Ingrese 16 digitos`;
     //   document.getElementById('tip-msg').classList.add('tool-tip');
-    //   document.getElementById('card-number').value = '';
+    //   document.getElementById('card-number'). = '';
     } else if (validatorNumber == true) {
       showResult.innerHTML = validResult;
       document.getElementById('card-result').classList.add('ctn-guide');

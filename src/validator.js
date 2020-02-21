@@ -33,17 +33,17 @@ const validator = {
 
   maskify : (creditCardNumber) => {
 
-    let num = creditCardNumber.split("");
-    let result="";
+    let arrCreditCardNumber = creditCardNumber.split("");
+    let maskedCreditCardNumber = '';
   
-    for(var i = 0; i < num.length; i++){
-     if(i < (num.length - 4)){
-       result +="#";
-     } else {
-       result += creditCardNumber[i];
-     }
+    for(let i = 0; i < arrCreditCardNumber.length; i++){
+      if(i < arrCreditCardNumber.length - 4){
+        maskedCreditCardNumber += '#';
+      } else {
+        maskedCreditCardNumber += arrCreditCardNumber[i];
+      }
     }
-    return result;
+    return maskedCreditCardNumber;
   },
 };
 

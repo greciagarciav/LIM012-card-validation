@@ -5,12 +5,11 @@
 * [Resumen del proyecto](#resumen-del-proyecto)
 * [Imagen final del proyecto](#imagen-final-del-proyecto)
 * [Investigación UX](#investigación-ux)
-* * [Usuarios y objetivos del proyecto](#usuarios-y-objetivos-del-proyecto)
-* * [Problemas que soluciona](#problemas-que-soluciona)
-* * [Prototipo de baja fidelidad](#prototipo-de-baja-fidelidad)
-* * [Resumen de feedback](#resumen-de-feedback)
-* * [Prototipo final](#prototipo-final)
-
+  * [Usuarios y objetivos del proyecto](#usuarios-y-objetivos-del-proyecto)
+  * [Problemas que soluciona](#problemas-que-soluciona)
+  * [Prototipo de baja fidelidad](#prototipo-de-baja-fidelidad)
+  * [Resumen de feedback](#resumen-de-feedback)
+  * [Prototipo final](#prototipo-final)
 
 
 ***
@@ -97,18 +96,18 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y
 
 * [x] [Diseñar la aplicación pensando y entendiendo al usuario](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/intro-ux/01-el-proceso-de-diseno/00-el-proceso-de-diseno)
 * [x] [Crear prototipos para obtener feedback e iterar](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/product-design/00-sketching/00-sketching)
-* [ ] [Aplicar los principios de diseño visual](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/product-design/01-visual-design/01-visual-design-basics)
+* [x] [Aplicar los principios de diseño visual](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/product-design/01-visual-design/01-visual-design-basics)
 
 ### HTML y CSS
 
-* [ ] [Uso correcto de HTML semántico](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
+* [x] [Uso correcto de HTML semántico](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
 * [x] [Uso de selectores de CSS](https://developer.mozilla.org/es/docs/Web/CSS/Selectores_CSS)
 * [x] [Construir tu aplicación respetando el diseño realizado](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/css/01-css/02-boxmodel-and-display) (maquetación).
 
 ### DOM
 
 * [x] [Uso de selectores de nodos del DOM](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/browser/02-dom/03-1-dom-methods-selection)
-* [ ] [Manejo de eventos del DOM](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/browser/02-dom/04-events)
+* [x] [Manejo de eventos del DOM](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/browser/02-dom/04-events)
 * [x] [Manipulación dinámica del DOM](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n)
 
 ### Javascript
@@ -122,19 +121,19 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y
 
 ### Testing
 
-* [ ] [Testeo de tus funciones](https://jestjs.io/docs/es-ES/getting-started)
+* [x] [Testeo de tus funciones](https://jestjs.io/docs/es-ES/getting-started)
 
 ### Git y GitHub
 
 * [x] [Comandos de git](https://lms.laboratoria.la/cohorts/lim-2019-09-bc-core-lim011/courses/scm/01-git/04-commands)
   (`add` | `commit` | `pull` | `status` | `push`).
-* [ ] [Manejo de repositorios de GitHub](https://lms.laboratoria.la/cohorts/lim-2019-09-bc-core-lim011/courses/scm/02-github/01-github)  (`clone` | `fork` | `gh-pages`).
+* [x] [Manejo de repositorios de GitHub](https://lms.laboratoria.la/cohorts/lim-2019-09-bc-core-lim011/courses/scm/02-github/01-github)  (`clone` | `fork` | `gh-pages`).
 
 ### Buenas prácticas de desarrollo
 
-* [ ] Organizar y dividir el código en módulos (Modularización).
-* [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
-* [ ] Uso de linter para seguir buenas prácticas (ESLINT).
+* [x] Organizar y dividir el código en módulos (Modularización).
+* [x] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+* [x] Uso de linter para seguir buenas prácticas (ESLINT).
 
 ### Recursos y temas relacionados
 

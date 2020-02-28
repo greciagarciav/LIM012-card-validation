@@ -26,13 +26,13 @@ btnVerifyCardNum.addEventListener('click', () => {
     //   document.getElementById('card-number'). = '';
   } else if (validatorNumber === true) {
     showResult.innerHTML = validResult;
-    document.getElementById('card-result').classList.add('ctn-guide');
+    // document.getElementById('card-result').classList.add('ctn-guide');
     document.getElementById('card-result').classList.add('ctn-result');
     document.getElementById('card-result').style.backgroundColor = '#38B955';
     document.getElementById('card-number').value = '';
   } else {
     showResult.innerHTML = invalidResult;
-    document.getElementById('card-result').classList.add('ctn-guide');
+    // document.getElementById('card-result').classList.add('ctn-guide');
     document.getElementById('card-result').classList.add('ctn-result');
     document.getElementById('card-result').style.backgroundColor = '#DD5D5D';
     document.getElementById('card-number').value = '';

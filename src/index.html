@@ -7,37 +7,30 @@
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
-  <div class="ctn-blue-bg ctn-guide"></div>
-  
-  <div class="ctn-wt-bg ctn-guide">
-    <header class="nav-bar ctn-guide">
-      <h1 class="ctn-guide">VERIFICARD</h1>
+    <header class="header">
+      <h1 class="header__title">VERIFICARD</h1>
     </header>
-
     <main>
-      <section class="img-main ctn-guide"></section>
-      <section class="card-main ctn-guide">
-        <p class="text-card-main ctn-guide">Verifica si el N° de tu tarjeta de crédito es válido.</p>
-
-        <div class="creditcard ctn-guide">
-          <img class="img-chip ctn-guide" src="img/chip.png" alt="">
-          <h2 class="title-card ctn-guide">CARD</h2>
-          <p class="text-credit-card ctn-guide">Ingresa tu N° de tarjeta</p>
-          <input class="ipt-card ctn-guide" id="card-number" type="text">
-          <button class="btn-verify ctn-guide" id="btn-verifing" >VERIFICAR</button>
+      <section class="section1"></section>
+      <section class="section2">
+        <h4>VERIFICA SI EL NÚMERO DE TU TARJETA <br> DE CRÉDITO ES VÁLIDO.</h4>        
+        <div class="creditcard">
+          <div class="creditcard__chip-title">
+            <img src="img/chip.png" alt="">
+            <h2>CARD</h2>
+          </div>
+          <p class="txt-card">Ingresa tu N° de tarjeta</p>
+          <div class="creditcard__ipt-btn">
+            <input class="ipt-card" id="card-number" type="text">
+            <button class="btn-verify" id="btn-verifing" >VERIFICAR</button>
+          </div>
           <span id="tip-msg"></span>
         </div>
-
         <div id="card-result"></div> 
-      </section>      
+      </section>             
     </main>
-
-    <footer class="foot ctn-guide"><h6>Creado por greciagarciav  © 2020</h6></footer>
-  </div>
-
-
+    <footer><h6>Creado por greciagarciav  © 2020</h6></footer>
   <script src="index.js" type="module"></script>
   </body>
 </html>
